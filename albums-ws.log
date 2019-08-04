@@ -1,0 +1,76 @@
+2019-08-04 14:38:00.977  INFO 40024 --- [restartedMain] c.a.p.a.a.PhotoAppApiAlbumsApplication   : No active profile set, falling back to default profiles: default
+2019-08-04 14:38:02.278  INFO 40024 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fce5687c-8caa-3de7-86f9-d6b89e9c58f8
+2019-08-04 14:38:02.333  INFO 40024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3bd21f74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-04 14:38:02.861  INFO 40024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2019-08-04 14:38:02.866  INFO 40024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-08-04 14:38:02.867  INFO 40024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-08-04 14:38:03.111  INFO 40024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-08-04 14:38:03.112  INFO 40024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2127 ms
+2019-08-04 14:38:05.261  WARN 40024 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-08-04 14:38:05.267  INFO 40024 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-08-04 14:38:05.406  INFO 40024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-04 14:38:06.835  WARN 40024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2019-08-04 14:38:09.918  INFO 40024 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-08-04 14:38:10.085  INFO 40024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57649 (http) with context path ''
+2019-08-04 14:38:10.087  INFO 40024 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 57649
+2019-08-04 14:38:10.090  INFO 40024 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-08-04 14:38:10.095  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2019-08-04 14:38:10.102  INFO 40024 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-08-04 14:38:10.103  INFO 40024 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-08-04 14:38:10.103  INFO 40024 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-08-04 14:38:10.103  INFO 40024 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-08-04 14:38:10.317  INFO 40024 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2019-08-04 14:38:10.551  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2019-08-04 14:38:10.551  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2019-08-04 14:38:10.552  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2019-08-04 14:38:10.553  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2019-08-04 14:38:10.555  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2019-08-04 14:38:10.555  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2019-08-04 14:38:10.555  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2019-08-04 14:38:10.561  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2019-08-04 14:38:10.563  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2019-08-04 14:38:10.563  INFO 40024 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-08-04 14:38:10.566  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1564940290566 with initial instances count: 2
+2019-08-04 14:38:10.568  INFO 40024 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ALBUMS-WS with eureka with status UP
+2019-08-04 14:38:10.568  INFO 40024 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1564940290568, current=UP, previous=STARTING]
+2019-08-04 14:38:10.569  INFO 40024 --- [restartedMain] c.a.p.a.a.PhotoAppApiAlbumsApplication   : Started PhotoAppApiAlbumsApplication in 12.577 seconds (JVM running for 10211.102)
+2019-08-04 14:38:10.570  INFO 40024 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-WS/albums-ws:2bd4becc50ca25bc4616156e9338980c: registering service...
+2019-08-04 14:38:10.583  INFO 40024 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-WS/albums-ws:2bd4becc50ca25bc4616156e9338980c - registration status: 204
+2019-08-04 14:38:10.623  INFO 40024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file albums-ws.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-08-04 14:38:15.521  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-04 14:38:15.522  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-08-04 14:38:15.529  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
