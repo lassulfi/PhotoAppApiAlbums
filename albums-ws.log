@@ -74,3 +74,17 @@ Unconditional classes:
 2019-08-04 14:38:15.521  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2019-08-04 14:38:15.522  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2019-08-04 14:38:15.529  INFO 40024 --- [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-09-10 22:42:15.932  INFO 9589 --- [main] .a.a.P.PhotoAppApiAlbumsApplicationTests : No active profile set, falling back to default profiles: default
+2019-09-10 22:42:17.285  WARN 9589 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-09-10 22:42:17.655  INFO 9589 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=6d4a1a54-5a2a-3f05-a011-f398b3ca3347
+2019-09-10 22:42:17.820  INFO 9589 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8481db32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-10 22:42:18.291  WARN 9589 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-10 22:42:18.292  INFO 9589 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-10 22:42:18.304  WARN 9589 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-09-10 22:42:18.304  INFO 9589 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-10 22:42:19.116  INFO 9589 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-10 22:42:20.661  INFO 9589 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-09-10 22:42:20.737  INFO 9589 --- [main] .a.a.P.PhotoAppApiAlbumsApplicationTests : Started PhotoAppApiAlbumsApplicationTests in 6.364 seconds (JVM running for 8.077)
+2019-09-10 22:42:21.157  INFO 9589 --- [Thread-7] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-09-10 22:42:21.168  INFO 9589 --- [Thread-7] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ALBUMS-WS with eureka with status DOWN
+2019-09-10 22:42:21.180  INFO 9589 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
